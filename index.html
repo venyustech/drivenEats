@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <!--Roboto fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Righteous fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DrivenEats</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <div class="logoWrapper">
+          <h1>DrivenEats</h1>
+          <h2>Sua comida em 6 minutos</h2>
+        </div>
+      </a>
+    </header>
+
+    <main class="mainWrapper">
+      <p>Primeiro, seu prato</p>
+      <div class="foodWrapper">
+        
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/frango_yin_yang 1.png"
+                alt=""
+              />
+              <div class="title">Frango Yin Yang</div>
+              <div class="subtitle">Um pouco de batata, um pouco de salada</div>
+              <div class="price">R$ 14,90</div>
+            </div>
+          </div>
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/Coxinha-de-Jaca.jpg"
+                alt=""
+              />
+              <div class="title">Coxinha de frango</div>
+              <div class="subtitle">Super cremosa com catupiry e maionese caseira</div>
+              <div class="price">R$ 8,90</div>
+            </div>
+          </div>
+    
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/carneDeMonstro.jpg"
+                alt=""
+              />
+              <div class="title">Carne de monstro acebolada</div>
+              <div class="subtitle">Prato comercial - especialidade da casa</div>
+              <div class="price">R$ 14,90</div>
+            </div>
+          </div>
+    
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/bifeDoOiao.jpg"
+                alt=""
+              />
+              <div class="title">Bife do oião</div>
+              <div class="subtitle">Pra quem quer economizar e encher o bucho</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+    
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/yakisoba_de_camarao_9869_orig.jpg"
+                alt=""
+              />
+              <div class="title">Yakisoba de camarão</div>
+              <div class="subtitle">Com muito camarão dos grandes</div>
+              <div class="price">R$ 18,90</div>
+            </div>
+          </div>
+    
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/buchada.jpg"
+                alt=""
+              />
+              <div class="title">Buchada de bode</div>
+              <div class="subtitle">Melhor buchada da regiao servida com cuscuz</div>
+              <div class="price">R$ 14,90</div>
+            </div>
+          </div>
+
+
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/sushi.jpeg"
+                alt=""
+              />
+              <div class="title">Sushi</div>
+              <div class="subtitle">Sushi da casa, uma delicia</div>
+              <div class="price">R$ 14,90</div>
+            </div>
+          </div>
+
+          <div class="foodCard" onclick="selectFood(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/kibe.jpeg"
+                alt=""
+              />
+              <div class="title">Kibe de carne</div>
+              <div class="subtitle">Com um limaozinho e maionese caseira</div>
+              <div class="price">R$ 14,90</div>
+            </div>
+          </div>
+    
+       
+      </div>
+
+      <p>Agora, sua bebida</p>
+      <div class="drinkWrapper">
+        
+          <div class="drinkCard" onclick="selectDrink(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/coquinha_gelada 1.png"
+                alt=""
+              />
+              <div class="title">Coquinha gelada</div>
+              <div class="subtitle">Lata 350ml</div>
+              <div class="price">R$ 4,90</div>
+            </div>
+          </div>
+
+          <div class="drinkCard" onclick="selectDrink(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/Sugarcanejuice.jpg"
+                alt=""
+              />
+              <div class="title">Caldo de Cana</div>
+              <div class="subtitle">copo 350ml</div>
+              <div class="price">R$ 2,90</div>
+            </div>
+          </div>
+
+          <div class="drinkCard" onclick="selectDrink(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/corote.jpeg"
+                alt=""
+              />
+              <div class="title">Corote geladinho</div>
+              <div class="subtitle">garrafinha de corote original</div>
+              <div class="price">R$ 10,90</div>
+            </div>
+          </div>
+
+          <div class="drinkCard" onclick="selectDrink(this)" >
+            <div class="options">
+              <img
+                class="logoImage"
+                src="assets/skolBeats.jpg"
+                alt=""
+              />
+              <div class="title">Skol beats</div>
+              <div class="subtitle">Lata geladinha</div>
+              <div class="price">R$ 5,90</div>
+            </div>
+          </div>
+
+        
+      </div>
+
+      <p>Agora, sua sobremesa
+      </p>
+      <div class="dessertWrapper">
+       
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Nada melhor pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+          <div class="dessertCard" onclick="selectDessert(this)" >
+            <div class="options">
+              <img class="logoImage" src="assets/pudim 1.png" alt="" />
+              <div class="title">Pudim</div>
+              <div class="subtitle">Apenas pudim</div>
+              <div class="price">R$ 7,90</div>
+            </div>
+          </div>
+     
+       
+      </div>
+    </main>
+
+    <footer class="footer ">
+    
+        <div class="requestsWrapper">
+            <div class="bottomRequests hide" onclick="send()">
+              <p> Selecione os 3 itens para fechar o pedido</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+
+  </body>
+</html>
